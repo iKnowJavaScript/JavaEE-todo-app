@@ -53,6 +53,21 @@
 						<contextReloadable>true</contextReloadable>
 					</configuration>
 				</plugin>
+
+
+				<plugin>
+					<groupId>org.wildfly.plugins</groupId>
+					<artifactId>wildfly-maven-plugin</artifactId>
+					<version>1.1.0.Alpha8</version>
+					<configuration>
+						<!--            <jbossHome>C:\wildfly-8.2.0.Final</jbossHome>-->
+						<hostname>localhost</hostname>
+						<port>9995</port>
+						<!--            <serverConfig>standalone-full.xml</serverConfig>-->
+					</configuration>
+				</plugin>
+
+
 			</plugins>
 		</pluginManagement>
 	</build>
